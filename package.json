@@ -30,7 +30,8 @@
     "npm": ">=1.3.14"
   },
   "scripts": {
-    "start": "node keystone.js"
+    "start": "node keystone.js",
+    "force-deploy": "npm version patch && git push heroku master"
   },
   "main": "keystone.js"
 }
