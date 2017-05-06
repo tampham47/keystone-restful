@@ -31,6 +31,7 @@
   },
   "scripts": {
     "start": "node keystone.js",
+    "postinstall": "npm install --unsafe-perm node-sass",
     "force-deploy": "npm version patch && git push heroku master"
   },
   "main": "keystone.js"
